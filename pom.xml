@@ -11,7 +11,7 @@
 	<groupId>com.cb.viooh</groupId>
 	<artifactId>payment</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>payment</name>
 	<description>spring boot project for payment component</description>
 	<properties>
