@@ -1,0 +1,7 @@
+{
+  "paymentId": "pay3242",
+  "orderId": "ord123",
+    "paymentType": "cash",
+    "status": "open",
+    "amount": "435.50"
+}
