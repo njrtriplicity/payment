@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: payment-deployment
+  labels:
+    app: payment
+spec:
+  selector:
+    matchLabels:
+      app: payment
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: payment
+    spec:
+      containers:
+        - name: payment
+          image: njrtriplicity/cb.viooh-payment
+          ports:
+            - containerPort: 5004
